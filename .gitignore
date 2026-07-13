@@ -1,0 +1,11 @@
+# project:somebody-help-me
+*
+!.gitignore
+# ---AUTO-Generated---
+# .gitignores/assets.gitignore
+!assets/
+!assets/**
+# .gitignores/somebody-help-me.gitignore
+!SKILL.md
+!README.md
+!LICENSE.*

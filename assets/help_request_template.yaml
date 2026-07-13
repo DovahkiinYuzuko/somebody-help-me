@@ -1,0 +1,12 @@
+help_request:
+  overview: "<!-- Briefly describe what you are building -->"
+  environment: "<!-- OS, version, language, or other environment details -->"
+  reported_issue:
+    matter: "<!-- What happened / Actual behavior -->"
+    trigger: "<!-- When it happens (steps to reproduce) -->"
+    current_state: "<!-- Current situation / Expected behavior vs Actual behavior -->"
+  proposed_approach: "<!-- What approach you are trying to take to fix it -->"
+  feedback_requested:
+    is_approach_valid: "<!-- Ask if the proposed approach is valid -->"
+    alternative_approaches: "<!-- Ask if there are better or different approaches -->"
+  instructions_for_responder: "Please provide your feedback and suggestions enclosed in a Markdown Y
