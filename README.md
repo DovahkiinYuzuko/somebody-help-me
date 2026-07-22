@@ -18,7 +18,7 @@
 エージェントスキル用のパッケージマネージャーである `npx skills` を使用してインストールします。
 
 ```bash
-npx skills install DovahkiinYuzuko/somebody-help-me
+npx skills add DovahkiinYuzuko/somebody-help-me
 ```
 
 ### 使用方法
@@ -41,7 +41,7 @@ This skill is used when a coding agent is stuck on an implementation or debuggin
 Install using `npx skills`, the package manager for AI agents.
 
 ```bash
-npx skills install DovahkiinYuzuko/somebody-help-me
+npx skills add DovahkiinYuzuko/somebody-help-me
 ```
 
 ### Usage
