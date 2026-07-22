@@ -1,12 +1,24 @@
 help_request:
-  overview: "<!-- Briefly describe what you are building -->"
-  environment: "<!-- OS, version, language, or other environment details -->"
+  overview: "<!-- Briefly describe what you are building or trying to fix -->"
+  environment: "<!-- OS, runtime, language, framework, versions, or other relevant environment details -->"
   reported_issue:
     matter: "<!-- What happened / Actual behavior -->"
-    trigger: "<!-- When it happens (steps to reproduce) -->"
-    current_state: "<!-- Current situation / Expected behavior vs Actual behavior -->"
-  proposed_approach: "<!-- What approach you are trying to take to fix it -->"
+    trigger: "<!-- When it happens / Steps to reproduce -->"
+    current_state: "<!-- Current situation, including expected vs actual behavior -->"
+  attempts_made:
+    - "<!-- Concrete attempt already tried -->"
+    - "<!-- Another attempt already tried -->"
+  blocking_assumption: "<!-- What assumption might be wrong, uncertain, or currently blocking progress -->"
+  proposed_approach: "<!-- What approach you are currently considering to fix the issue -->"
+  relevant_files:
+    - path: "<!-- Relevant file path -->"
+      role: "<!-- Why this file matters -->"
   feedback_requested:
-    is_approach_valid: "<!-- Ask if the proposed approach is valid -->"
-    alternative_approaches: "<!-- Ask if there are better or different approaches -->"
-  instructions_for_responder: "Please provide your feedback and suggestions enclosed in a Markdown YAML block."
+    is_approach_valid: "<!-- Ask whether the proposed approach is valid -->"
+    alternative_approaches: "<!-- Ask for better or different approaches -->"
+    missing_diagnosis: "<!-- Ask what you may be overlooking -->"
+  instructions_for_responder:
+    - "Provide all feedback and suggestions strictly in English."
+    - "Include your AI model name or identity as the responder (e.g. responder_ai: 'Model Name') inside the YAML response."
+    - "Output STRICTLY the Markdown YAML block only. Do not include any greetings, explanations, or additional text outside the code block."
+    - "Do not include any personalized or user-identifying information in the response."
